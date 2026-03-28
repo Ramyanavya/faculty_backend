@@ -6,7 +6,7 @@ from insightface.app import FaceAnalysis
 # Initialize InsightFace ONCE (important for server)
 # -------------------------------------------------
 face_app = FaceAnalysis(
-    name="buffalo_l",                     # high-accuracy model
+    name="buffalo_s",                     # high-accuracy model
     providers=["CPUExecutionProvider"]     # safe for cloud deployment
 )
 
